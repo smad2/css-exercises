@@ -1,0 +1,18 @@
+.odd{
+    background-color: hsl(356 67.4% 77.5%);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.bigtext{
+    font-size: 24px;
+}
+
+#n2{
+    color: hsl(233 100% 60%);
+    font-size: 36px;
+}
+
+#n4{
+    background-color: hsl(105 100% 78.3%);
+    font-weight: bold;
+}
