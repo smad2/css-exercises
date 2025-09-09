@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* NO HACE FALTA HACER CON EL BODY ENTERO UN DISPLAY:FLEX !! CON TEXT-ALIGN CENTER ES SUFICIENTE */
+  text-align: center;
 }
 
 img {
@@ -10,7 +12,21 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* MARGIN BOTTOM PORQUE EL ESPACIO ES SOLO ABAJO */
+  margin-bottom: 32px;
 }
+
+.pictures{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  max-width: 200px;
+
+}
+
 
 /* do not edit this footer */
 .footer {
