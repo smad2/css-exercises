@@ -4,6 +4,25 @@ html, body {
   height: 100%;
 }
 
+.header{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.msg{
+  margin-left: 15px;
+}
+
+.text{
+  margin-bottom: 15px;
+
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,27 +39,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  /* SOLUTION */
+
+  padding: 15px;
   display: flex;
-  padding: 16px;
-  gap: 16px;
-
 }
-
-.header{
-  /* SOLUTION */
-  font-weight: 700;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
-.text{
-  margin-bottom: 16px;
-}
-
 
 .icon {
   color: royalblue;
@@ -51,10 +53,9 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  /* SOLUTION */
-  flex-shrink: 0;
 }
 
 .close-button {
